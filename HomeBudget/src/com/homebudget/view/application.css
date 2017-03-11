@@ -1,0 +1,144 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+@font-face {
+    font-family: UbuntuMedium;
+    src: url('../fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: UbuntuLight;
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+
+.root{
+	-fx-font-family: 'UbuntuMedium';
+}
+
+#MainFrame{
+	-fx-border-color: silver;
+	-fx-border-style: solid;
+	-fx-border-width: 1px;
+}
+
+#FrameHeader{
+	-fx-background-color: rgb(250,250,250);
+}
+
+.close{
+	-fx-background-color: null;
+	-fx-background-image: url(../images/close.jpg) no-repeat;
+	-fx-focus-traversable: false;
+}
+
+.close:hover{
+	-fx-background-color: null;
+	-fx-background-image: url(../images/closeHover.jpg) no-repeat;
+	-fx-focus-traversable: false;
+}
+
+.minimize{
+	-fx-background-color: null;
+	-fx-background-image: url(../images/minimize.jpg) no-repeat;
+	-fx-focus-traversable: false;
+}
+
+.minimize:hover{
+	-fx-background-color: null;
+	-fx-background-image: url(../images/minimizeHover.jpg) no-repeat;
+	-fx-focus-traversable: false;
+}
+
+DynamicField{
+	-fx-font: 20px 'UbuntuMedium';
+	-fx-border-color: silver;
+	-fx-background-color: rgb(255,255,255);
+	-fx-text-fill: gray;
+	-fx-border-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-padding: 2px 0px 2px 5px;
+	-fx-opacity: 1.0;
+}
+
+DynamicPassword{
+	-fx-font: 20px 'UbuntuMedium';
+	-fx-border-color: silver;
+	-fx-background-color: rgb(255,255,255);
+	-fx-text-fill: gray;
+	-fx-border-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-padding: 2px 0px 2px 5px;
+	-fx-opacity: 1.0;
+}
+
+#LoginRegisterBackground{
+	-fx-background-color: #fff;
+}
+
+#LoginTabPane{
+	-fx-border-color: silver;
+	-fx-border-style: solid;
+	-fx-border-width: 1px;
+	
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0.1;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:170px;
+  	-fx-tab-max-width:170px;
+  	-fx-tab-min-height:40px;
+ 	-fx-tab-max-height:40px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: silver;
+    -fx-font-size: 18px;
+    -fx-focus-color: transparent;
+}
+
+.tab:selected{
+	-fx-background-color: #fff;
+	-fx-border-color: silver;
+	-fx-border-radius: 3px;
+	-fx-border-style: solid solid hidden solid;
+	-fx-border-insets: 0;
+}
+
+.tab .tab-label { 
+	-fx-font-family: 'UbuntuMedium';
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+}
+
+#UserStatusBar{
+	-fx-background-color: linear-gradient( from 0.0% 0.0% to 0.0% 100.0%, rgb(2,223,255) 0.0, rgb(0,102,236) 1.0);
+	-fx-padding: 0px 20px;
+}
+
+#UserStatusBar Label{
+	-fx-font-family: 'UbuntuMedium';
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.navigationButton{
+	-fx-background-color: linear-gradient( from 0.0% 0.0% to 0.0% 100.0%, rgb(255,255,255) 0.0, rgb(230,230,230) 1.0);
+	-fx-border-color: silver;
+	-fx-border-style: hidden solid hidden hidden;
+	-fx-font-family: 'UbuntuMedium';
+	-fx-font-size: 20px;
+	-fx-text-fill: black;
+	-fx-padding: 0;
+}
+
+.navigationButton:pressed{
+	-fx-background-color: linear-gradient( from 0.0% 0.0% to 0.0% 100.0%, rgb(230,230,230) 0.0, rgb(245,245,245) 1.0);
+	-fx-border-color: silver;
+	-fx-border-style: hidden solid hidden hidden;
+}
