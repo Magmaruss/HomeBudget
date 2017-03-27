@@ -115,6 +115,24 @@ DynamicPassword{
     -fx-text-fill: #828282;
 }
 
+.tabPaneInPlanBookmark{
+	-fx-tab-min-width:352px;
+  	-fx-tab-max-width:352px;
+  	-fx-tab-min-height:40px;
+ 	-fx-tab-max-height:40px;
+}
+.txt-label{
+	-fx-font-size: 16px;
+	/*-fx-font-weight: bold;*/
+	-fx-font-family: 'UbuntuMedium';
+	-fx-translate-y: -22px;
+	-fx-translate-x: 5px;
+	-fx-background-color: #FFFFFF;
+	
+}
+TitlePane>Label{
+	-fx-text-fill: gray;
+}
 #UserStatusBar{
 	-fx-background-color: linear-gradient( from 0.0% 0.0% to 0.0% 100.0%, rgb(2,223,255) 0.0, rgb(0,102,236) 1.0);
 	-fx-padding: 0px 20px;
@@ -125,6 +143,17 @@ DynamicPassword{
 	-fx-font-size: 20px;
 	-fx-text-fill: white;
 	-fx-font-weight: bold;
+}
+
+#TitledPane{
+	-fx-border-style: solid;
+	-fx-border-color: silver;
+	-fx-border-width: 1px;
+	-fx-border-radius: 3px;
+	-fx-border-insets: 7px;
+	-fx-background-color: #FFFFFF;
+	-fx-padding: 10px 3px 3px 3px;
+	
 }
 
 .navigationButton{
